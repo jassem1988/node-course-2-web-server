@@ -22,9 +22,9 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use((req, res, next) => {
-  res.render('maintenace.hbs');
-});
+// app.use((req, res, next) => {
+//   res.render('maintenace.hbs');
+// });
 
 app.use(express.static(__dirname + '/public')); //let express use /public folder
 
